@@ -1,3 +1,25 @@
 body {
   background-color: #e4f1fe;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  margin: 120px auto;
+  max-width: 600px;
+}
+
+header {
+  margin-bottom: 30px;
+}
+h1 {
+  text-align: center;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 1.5;
+  color: #34495e;
+}
+form {
+  padding: 30px;
+  background-color: #8dc6ff;
+  border-radius: 10px;
+  display: flex;
 }
