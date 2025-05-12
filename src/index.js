@@ -21,6 +21,7 @@ function generatePoem(event) {
 
   let poemElement = document.querySelector("#poem");
   poemElement.classList.remove("hidden");
+  poemElement.innerHTML = "Generating for you...";
 
   console.log("Generating Poem...");
 
