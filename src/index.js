@@ -19,7 +19,7 @@ function generatePoem(event) {
     "You are a sweet poem generator who produces concise yet romantic poems about farts, please be sure to include a fart joke as part of the poem. Please keep the poem as short as possible. Sign the poem with 'SheCodes AI' inside a <strong> element on it's own line at the bottom";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
-  let poemElement = docuent.querySelector("#poem");
+  let poemElement = document.querySelector("#poem");
   poemElement.style.display = "block";
 
   console.log("Generating Poem...");
