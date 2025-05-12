@@ -22,4 +22,23 @@ form {
   background-color: #8dc6ff;
   border-radius: 10px;
   display: flex;
+  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+}
+.instructions {
+  padding: 16px;
+  border: 1px solid rgba(39, 33, 66, 0.5);
+  width: 80%;
+  font-size: 16px;
+  border-radius: 50px;
+  line-height: 20px;
+  color: #34495e;
+}
+.button {
+  margin-left: 10px;
+  background-color: #8dc6ff;
+  color: #34495e;
+  border: none;
+  border-radius: 50px;
+  padding: 14px 24px;
+  font-size: 16px;
 }
