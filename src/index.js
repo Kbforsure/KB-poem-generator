@@ -11,7 +11,7 @@ function displayPoem(response) {
 function generatePoem(event) {
   event.preventDefault();
 
-  let instructionsInput = document.querySelector("#user-instructions");
+  let instructionsInput = document.querySelector(".instructions");
 
   let apiKey = "do8e05a55a39a74t37328f1154eb845f";
   let prompt = `Generate a poem about ${instructionsInput.value}`;
