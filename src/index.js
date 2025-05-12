@@ -19,6 +19,7 @@ function generatePoem(event) {
     "You are a funny poem expert who loves to write short poems about farts! Your mission is to generate a 4 line poem in basic HTML. Make sure to include the prompt AND farts below. Please behave.";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
   console.log("Generating Poem...");
+
   axios.get(apiUrl).then(displayPoem);
 }
 
