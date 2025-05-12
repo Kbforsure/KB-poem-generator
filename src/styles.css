@@ -1,5 +1,5 @@
 body {
-  background-color: #8594e4;
+  background-color: #e4f1fe;
   font-family: Arial, Helvetica, sans-serif;
 }
 .container {
@@ -22,7 +22,7 @@ a {
 }
 form {
   padding: 30px;
-  background-color: #8dc6ff;
+  background-color: #8594e4;
   border-radius: 10px;
   display: flex;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
